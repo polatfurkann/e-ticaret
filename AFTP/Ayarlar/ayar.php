@@ -20,8 +20,32 @@ if($AyarSayisi>0){
     $SiteLogosu          = $Ayarlar["SiteLogosu"];
     $SiteEmailAdresi     = $Ayarlar["SiteEmailAdresi"];
     $SiteEmailSifresi    = $Ayarlar["SiteEmailSifresi"];
+    $SosyalLinkFacebook     = $Ayarlar["SosyalLinkFacebook"];
+    $SosyalLinkTwitter      = $Ayarlar["SosyalLinkTwitter"];
+    $SosyalLinkLinkedIn     = $Ayarlar["SosyalLinkLinkedIn"];
+    $SosyalLinkInstagram    = $Ayarlar["SosyalLinkInstagram"];
+    $SosyalLinkYouTube	    = $Ayarlar["SosyalLinkYouTube"];
+    $SosyalLinkPinterest    = $Ayarlar["SosyalLinkPinterest"];
 }else{
     //echo "Site Ayar Sorgusu Hatalı";
+    die();
+}
+
+$MetinlerSorgusu  = $VeritabaniBaglantisi->prepare("SELECT * FROM sozlesmelervemetinler LIMIT 1");
+$MetinlerSorgusu->execute();  //Çalıştır
+$MetinlerSayisi   = $MetinlerSorgusu->rowCount(); //Kayıt var mı yok mu?
+$Metinler         = $MetinlerSorgusu->fetch(PDO::FETCH_ASSOC);
+
+if($MetinlerSayisi>0){
+    $HakkimizdaMetni               = $Metinler["HakkimizdaMetni"];
+    $UyelikSozlesmesiMetni         = $Metinler["UyelikSozlesmesiMetni"];
+    $KullanimKosullariMetni        = $Metinler["KullanimKosullariMetni"];
+    $GizlilikSozlesmesiMetni       = $Metinler["GizlilikSozlesmesiMetni"];
+    $MesafaliSatisSozlesmesiMetni  = $Metinler["MesafaliSatisSozlesmesiMetni"];
+    $TeslimatMetni                 = $Metinler["TeslimatMetni"];
+    $IptalIadeDegisimMetni         = $Metinler["IptalIadeDegisimMetni"];
+}else{
+    //echo "Metinler Sorgusu Hatalı";
     die();
 }
 
