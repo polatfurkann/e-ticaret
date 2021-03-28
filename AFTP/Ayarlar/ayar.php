@@ -20,13 +20,6 @@ if($AyarSayisi>0){
     $SiteLogosu          = $Ayarlar["SiteLogosu"];
     $SiteEmailAdresi     = $Ayarlar["SiteEmailAdresi"];
     $SiteEmailSifresi    = $Ayarlar["SiteEmailSifresi"];
-
-
-    
-
-
-
-
 }else{
     //echo "Site Ayar Sorgusu Hatalı";
     die();
