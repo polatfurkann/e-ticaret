@@ -7,7 +7,7 @@ $Sayfa[4]   = "gizliliksozlesmesi.php";
 $Sayfa[5]   = "mesafelisatissozlesmesi.php";
 $Sayfa[6]   = "teslimat.php";
 $Sayfa[7]   = "iptaliadedegisim.php";
-$Sayfa[8]   = "";
+$Sayfa[8]   = "bankahesaplarimiz.php";
 $Sayfa[9]   = "";
 $Sayfa[10]   = "";
 
