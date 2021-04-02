@@ -8,9 +8,18 @@ $Sayfa[5]   = "mesafelisatissozlesmesi.php";
 $Sayfa[6]   = "teslimat.php";
 $Sayfa[7]   = "iptaliadedegisim.php";
 $Sayfa[8]   = "bankahesaplarimiz.php";
-$Sayfa[9]   = "";
-$Sayfa[10]   = "";
-
+$Sayfa[9]   = "havalebildirimformu.php";
+$Sayfa[10]  = "havalebildirimformusonuc.php";
+$Sayfa[11]  = "havalebildirimformusonuctamam.php";
+$Sayfa[12]  = "havalebildirimformusonuchata.php";
+$Sayfa[13]  = "havalebildirimformusonuceksikalan.php";
+$Sayfa[14]  = "";
+$Sayfa[15]  = "";
+$Sayfa[16]  = "";
+$Sayfa[17]  = "";
+$Sayfa[18]  = "";
+$Sayfa[19]  = "";
+$Sayfa[20]  = "";
 
 
 
