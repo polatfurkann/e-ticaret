@@ -12,14 +12,15 @@ $AyarSayisi      = $AyarlarSorgusu->rowCount(); //Kayıt var mı yok mu?
 $Ayarlar         = $AyarlarSorgusu->fetch(PDO::FETCH_ASSOC);
 
 if($AyarSayisi>0){
-    $SiteAdi             = $Ayarlar["SiteAdi"];
-    $SiteTitle           = $Ayarlar["SiteTitle"];
-    $SiteDescription     = $Ayarlar["SiteDescription"];
-    $SiteKeywords        = $Ayarlar["SiteKeywords"];
-    $SiteCopyrightMetni  = $Ayarlar["SiteCopyrightMetni"];
-    $SiteLogosu          = $Ayarlar["SiteLogosu"];
-    $SiteEmailAdresi     = $Ayarlar["SiteEmailAdresi"];
-    $SiteEmailSifresi    = $Ayarlar["SiteEmailSifresi"];
+    $SiteAdi                = $Ayarlar["SiteAdi"];
+    $SiteTitle              = $Ayarlar["SiteTitle"];
+    $SiteDescription        = $Ayarlar["SiteDescription"];
+    $SiteKeywords           = $Ayarlar["SiteKeywords"];
+    $SiteCopyrightMetni     = $Ayarlar["SiteCopyrightMetni"];
+    $SiteLogosu             = $Ayarlar["SiteLogosu"];
+    $SiteEmailAdresi        = $Ayarlar["SiteEmailAdresi"];
+    $SiteEmailSifresi       = $Ayarlar["SiteEmailSifresi"];
+    $SiteEmailHostAdresi    = $Ayarlar["SiteEmailHostAdresi"];
     $SosyalLinkFacebook     = $Ayarlar["SosyalLinkFacebook"];
     $SosyalLinkTwitter      = $Ayarlar["SosyalLinkTwitter"];
     $SosyalLinkLinkedIn     = $Ayarlar["SosyalLinkLinkedIn"];

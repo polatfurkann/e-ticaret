@@ -40,7 +40,7 @@
 
                             foreach($BankaKayitlari as $Bankalar){
                             ?>
-                            <option value="<?php echo $Bankalar["id"]; ?>"><?php echo $Bankalar["BankaAdi"]; ?></option>
+                            <option value="<?php echo DonusumleriGeriDondur($Bankalar["id"]); ?>"><?php echo DonusumleriGeriDondur($Bankalar["BankaAdi"]); ?></option>
                             <?php
                             }
                             ?>
@@ -63,7 +63,7 @@
 
         <td width="545" valign="top"><table width="545" align="center" border="0" cellpadding="0" cellspacing="0">
             <tr height="40">
-                <td style="color:#FF9900"><h3>İşleyiş</h3></td>
+                <td colspan="2" style="color:#FF9900"><h3>İşleyiş</h3></td>
             </tr>   
             <tr height="30">
                 <td colspan="2" valign="top" style="border-bottom: 1px dashed #CCCCCC;">Havale / EFT İşlemlerinin Kontrolü.</td>
@@ -78,7 +78,8 @@
             <tr>
                 <td colspan="2" align="left">Müşteri tarafından öncelikle banka hesaplarımız sayfasında bulunan herhangi bir hesaba ödeme işlemi gerçekleştirilir.</td>
             </tr>  
-            <td colspan="2">&nbsp;</td>                  
+            <td colspan="2">&nbsp;</td>
+            </tr>                  
             <tr height="30">
                 <td align="left" width="30"><img src="Resimler/DokumanKirmiziKalemli20x20.png" border="0" style="margin-top: 3px;"></td>
                 <td align="left"><b>Bildirim İşlemi</b></td>
@@ -86,7 +87,8 @@
             <tr>
                 <td colspan="2" align="left">Ödeme işleminizi tamamladıktan sonra "Havale Bildirim Formu" sayfasından müşteri yapmış olduğu ödeme için bildirim formunu doldurarak online olarak gönderir.</td>
             </tr>  
-            <td colspan="2">&nbsp;</td>                  
+            <td colspan="2">&nbsp;</td>
+            </tr>                  
             <tr height="30">
                 <td align="left" width="30"><img src="Resimler/CarklarSiyah20x20.png" border="0" style="margin-top: 3px;"></td>
                 <td align="left"><b>Kontroller</b></td>
@@ -94,7 +96,8 @@
             <tr>
                 <td colspan="2" align="left">"Havale Bildirim Formu"'nuz tarafımıza ulaştığı anda ilgili departman tarafından yapmış olduğunuz havale / EFT işlemi ilgili banka üzerinden kontrol edilir.</td>
             </tr>                   
-            <td colspan="2">&nbsp;</td>                  
+            <td colspan="2">&nbsp;</td>
+            </tr>                  
             <tr height="30">
                 <td align="left" width="30"><img src="Resimler/InsanlarSiyah20x20.png" border="0" style="margin-top: 3px;"></td>
                 <td align="left"><b>Onay / Red</b></td>

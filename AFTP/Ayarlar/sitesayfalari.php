@@ -15,11 +15,11 @@ $Sayfa[12]  = "havalebildirimformusonuchata.php";
 $Sayfa[13]  = "havalebildirimformusonuceksikalan.php";
 $Sayfa[14]  = "kargomnerede.php";
 $Sayfa[15]  = "kargomneredesonuc.php";
-$Sayfa[16]  = "";
-$Sayfa[17]  = "";
-$Sayfa[18]  = "";
-$Sayfa[19]  = "";
-$Sayfa[20]  = "";
+$Sayfa[16]  = "iletisim.php";
+$Sayfa[17]  = "iletisimsonuc.php";
+$Sayfa[18]  = "iletisimsonuctamam.php";
+$Sayfa[19]  = "iletisimsonuchata.php";
+$Sayfa[20]  = "iletisimsonuceksikalan.php";
 
 
 

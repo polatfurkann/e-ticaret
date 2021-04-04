@@ -27,7 +27,7 @@ if(isset($_POST["BankaSecimi"])){
 if(isset($_POST["Aciklama"])){
     $GelenAciklama          = Guvenlik($_POST["Aciklama"]);
 }else{
-    $GelenAciklama       = "";
+    $GelenAciklama          = "";
 }
 
 if(($GelenIsimSoyisim!="") and ($GelenEmailAdresi!="") and ($GelenTelefonNumarasi!="") and ($GelenBankaSecimi!="")){
