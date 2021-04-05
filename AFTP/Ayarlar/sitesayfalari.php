@@ -21,6 +21,15 @@ $Sayfa[18]  = "iletisimsonuctamam.php";
 $Sayfa[19]  = "iletisimsonuchata.php";
 $Sayfa[20]  = "iletisimsonuceksikalan.php";
 $Sayfa[21]  = "destek.php";
+$Sayfa[22]  = "yeniuyeol.php";
+$Sayfa[23]  = "yeniuyeolsonuc.php";
+$Sayfa[24]  = "yeniuyeolsonuctamam.php";
+$Sayfa[25]  = "yeniuyeolsonuchata.php";
+$Sayfa[26]  = "yeniuyeolsonuceksikalan.php";
+$Sayfa[27]  = "yeniuyeolsonuctekrarlanan.php";
+$Sayfa[28]  = "yeniuyeolsonucuyusmayansifre.php";
+$Sayfa[29]  = "yeniuyeolsonuconaysizsozlesme.php";
+$Sayfa[30]  = "yeniuyeolsonucaktivasyontamam.php";
 
 
 

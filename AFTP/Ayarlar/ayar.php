@@ -18,6 +18,7 @@ if($AyarSayisi>0){
     $SiteKeywords           = $Ayarlar["SiteKeywords"];
     $SiteCopyrightMetni     = $Ayarlar["SiteCopyrightMetni"];
     $SiteLogosu             = $Ayarlar["SiteLogosu"];
+    $SiteLinki              = $Ayarlar["SiteLinki"];
     $SiteEmailAdresi        = $Ayarlar["SiteEmailAdresi"];
     $SiteEmailSifresi       = $Ayarlar["SiteEmailSifresi"];
     $SiteEmailHostAdresi    = $Ayarlar["SiteEmailHostAdresi"];
@@ -50,6 +51,32 @@ if($MetinlerSayisi>0){
     die();
 }
 
+if(isset($_SESSION["Kullanici"])){
+    $KullaniciSorgusu  = $VeritabaniBaglantisi->prepare("SELECT * FROM uyeler WHERE EmailAdresi = " . $_SESSION["Kullanici"] . " LIMIT 1");
+    $KullaniciSorgusu->execute();  //Çalıştır
+    $KullaniciSayisi   = $KullaniciSorgusu->rowCount(); //Kayıt var mı yok mu?
+    $Kullanici         = $KullaniciSorgusu->fetch(PDO::FETCH_ASSOC);
+
+    if($KullaniciSayisi>0){
+        $KullaniciID        = $Kullanici["id"];
+        $EmailAdresi        = $Kullanici["EmailAdresi"];
+        $Sifre              = $Kullanici["Sifre"];
+        $IsimSoyisim        = $Kullanici["IsimSoyisim"];
+        $TelefonNumarasi    = $Kullanici["TelefonNumarasi"];
+        $Cinsiyet           = $Kullanici["Cinsiyet"];
+        $Durumu             = $Kullanici["Durumu"];
+        $KayitTarihi        = $Kullanici["KayitTarihi"];
+        $KayitIpAdresi      = $Kullanici["KayitIpAdresi"];
+        $AktivasyonKodu     = $Kullanici["AktivasyonKodu"];
+
+
+
+        
+    }else{
+        //echo "Kullanıcı Sorgusu Hatalı";
+        die();
+    }
+}
 
 
 
