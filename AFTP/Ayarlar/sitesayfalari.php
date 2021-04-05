@@ -31,6 +31,34 @@ $Sayfa[28]  = "yeniuyeolsonucuyusmayansifre.php";
 $Sayfa[29]  = "yeniuyeolsonuconaysizsozlesme.php";
 $Sayfa[30]  = "yeniuyeolsonucaktivasyontamam.php";
 
+$Sayfa[31]  = "uyegiris.php";
+$Sayfa[32]  = "uyegirissonuc.php";
+$Sayfa[33]  = "uyegirissonuchata.php";
+$Sayfa[34]  = "uyegirissonucyanlisbilgi.php";
+$Sayfa[35]  = "uyegirissonuceksikalan.php";
+$Sayfa[36]  = "uyegirissonucaktivasyonsuz.php";
+
+$Sayfa[37]  = "sifremiunuttum.php";
+$Sayfa[38]  = "sifremiunuttumsonuc.php";
+$Sayfa[39]  = "sifremiunuttumsonuctamam.php";
+$Sayfa[40]  = "sifremiunuttumsonuchata.php";
+$Sayfa[41]  = "sifremiunuttumsonucyanlisbilgi.php";
+$Sayfa[42]  = "sifremiunuttumsonuceksikalan.php";
+
+
+
+
+$Sayfa[43]  = "yenisifreolustur.php";
+$Sayfa[44]  = "yenisifreolustursonuc.php";
+$Sayfa[45]  = "yenisifreolustursonuctamam.php";
+$Sayfa[46]  = "yenisifreolustursonuchata.php";
+$Sayfa[47]  = "yenisifreolustursonucuyusmayansifre.php";
+$Sayfa[48]  = "yenisifreolustursonuceksikalan.php";
+
+
+$Sayfa[49]  = "hesabimuyelikbilgilerim.php";
+$Sayfa[50]  = ".php";
+
 
 
 

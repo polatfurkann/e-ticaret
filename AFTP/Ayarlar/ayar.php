@@ -52,8 +52,8 @@ if($MetinlerSayisi>0){
 }
 
 if(isset($_SESSION["Kullanici"])){
-    $KullaniciSorgusu  = $VeritabaniBaglantisi->prepare("SELECT * FROM uyeler WHERE EmailAdresi = " . $_SESSION["Kullanici"] . " LIMIT 1");
-    $KullaniciSorgusu->execute();  //Çalıştır
+    $KullaniciSorgusu  = $VeritabaniBaglantisi->prepare("SELECT * FROM uyeler WHERE EmailAdresi = ? LIMIT 1");
+    $KullaniciSorgusu->execute([$_SESSION["Kullanici"]]);  //Çalıştır
     $KullaniciSayisi   = $KullaniciSorgusu->rowCount(); //Kayıt var mı yok mu?
     $Kullanici         = $KullaniciSorgusu->fetch(PDO::FETCH_ASSOC);
 
@@ -68,10 +68,6 @@ if(isset($_SESSION["Kullanici"])){
         $KayitTarihi        = $Kullanici["KayitTarihi"];
         $KayitIpAdresi      = $Kullanici["KayitIpAdresi"];
         $AktivasyonKodu     = $Kullanici["AktivasyonKodu"];
-
-
-
-        
     }else{
         //echo "Kullanıcı Sorgusu Hatalı";
         die();

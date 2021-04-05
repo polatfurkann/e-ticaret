@@ -38,7 +38,7 @@ if(isset($_REQUEST["SK"])){
                 <tr bgcolor="#0088CC">
                     <td>&nbsp;</td>
                     <td width="20"><a href="xxxxx"><img src="Resimler/KullaniciBeyaz16x16.png" border="0" style="margin-top: 5px;"></a></td>
-                    <td width="70" class="MaviAlanMenusu"><a href="xxxxx">Giriş Yap</a></td>
+                    <td width="70" class="MaviAlanMenusu"><a href="index.php?SK=31">Giriş Yap</a></td>
                     <td width="20"><a href="xxxxx"><img src="Resimler/KullaniciEkleBeyaz16x16.png" border="0" style="margin-top: 5px;"></a></td>
                     <td width="85" class="MaviAlanMenusu"><a href="index.php?SK=22">Yeni Üye Ol</a></td>
                     <td width="20"><a href="xxxxx"><img src="Resimler/SepetBeyaz16x16.png" border="0" style="margin-top: 5px;"></a></td>
@@ -93,7 +93,7 @@ if(isset($_REQUEST["SK"])){
                 <tr height="30">
                     <td class="AltMenu">&nbsp;<a href="index.php?SK=1">Hakkımızda</a></td>
                     <td>&nbsp;</td>
-                    <td class="AltMenu"><a href="xxxxx">Giriş Yap</a></td>
+                    <td class="AltMenu"><a href="index.php?SK=31">Giriş Yap</a></td>
                     <td>&nbsp;</td>
                     <td class="AltMenu"><a href="index.php?SK=2">Üyelik Sözleşmesi</a></td>
                     <td>&nbsp;</td>
