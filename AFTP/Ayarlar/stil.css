@@ -188,3 +188,21 @@ body {
     font-size: 14px;
     line-height: 1.5;
 }
+
+.BilgilerimiGuncelleButonu {
+    height: 30px;
+    border: 1px solid #00FF00;
+    background: #009900;
+    padding: 5px 30px;
+    color: white;
+    text-decoration: none;
+}
+
+.BilgilerimiGuncelleButonu:hover {
+    height: 30px;
+    border: 1px solid #009900;
+    background: #00FF00;
+    padding: 5px 30px;
+    color: black;
+    cursor: pointer;
+}

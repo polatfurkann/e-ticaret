@@ -37,10 +37,23 @@ if(isset($_REQUEST["SK"])){
             <td><table width="1065" height="30" align="center" border="0" cellpadding="0" cellspacing="0">
                 <tr bgcolor="#0088CC">
                     <td>&nbsp;</td>
-                    <td width="20"><a href="xxxxx"><img src="Resimler/KullaniciBeyaz16x16.png" border="0" style="margin-top: 5px;"></a></td>
-                    <td width="70" class="MaviAlanMenusu"><a href="index.php?SK=31">Giriş Yap</a></td>
-                    <td width="20"><a href="xxxxx"><img src="Resimler/KullaniciEkleBeyaz16x16.png" border="0" style="margin-top: 5px;"></a></td>
-                    <td width="85" class="MaviAlanMenusu"><a href="index.php?SK=22">Yeni Üye Ol</a></td>
+                    <?php
+                    if(isset($_SESSION["Kullanici"])){
+                    ?>
+                        <td width="20"><a href="xxxxx"><img src="Resimler/KullaniciBeyaz16x16.png" border="0" style="margin-top: 5px;"></a></td>
+                        <td width="70" class="MaviAlanMenusu"><a href="index.php?SK=50">Hesabım</a></td>
+                        <td width="20"><a href="xxxxx"><img src="Resimler/CikisBeyaz16x16.png" border="0" style="margin-top: 5px;"></a></td>
+                        <td width="85" class="MaviAlanMenusu"><a href="index.php?SK=49">Çıkış Yap</a></td>
+                    <?php
+                    }else{
+                    ?>
+                        <td width="20"><a href="xxxxx"><img src="Resimler/KullaniciBeyaz16x16.png" border="0" style="margin-top: 5px;"></a></td>
+                        <td width="70" class="MaviAlanMenusu"><a href="index.php?SK=31">Giriş Yap</a></td>
+                        <td width="20"><a href="xxxxx"><img src="Resimler/KullaniciEkleBeyaz16x16.png" border="0" style="margin-top: 5px;"></a></td>
+                        <td width="85" class="MaviAlanMenusu"><a href="index.php?SK=22">Yeni Üye Ol</a></td>
+                    <?php
+                    }
+                    ?>
                     <td width="20"><a href="xxxxx"><img src="Resimler/SepetBeyaz16x16.png" border="0" style="margin-top: 5px;"></a></td>
                     <td width="103" class="MaviAlanMenusu"><a href="xxxxx">Alışveriş Sepeti</a></td>
                 </tr>
@@ -93,7 +106,17 @@ if(isset($_REQUEST["SK"])){
                 <tr height="30">
                     <td class="AltMenu">&nbsp;<a href="index.php?SK=1">Hakkımızda</a></td>
                     <td>&nbsp;</td>
-                    <td class="AltMenu"><a href="index.php?SK=31">Giriş Yap</a></td>
+                    <?php
+                    if(isset($_SESSION["Kullanici"])){
+                    ?>
+                        <td class="AltMenu"><a href="index.php?SK=50">Hesabım</a></td>
+                    <?php
+                    }else{
+                    ?>
+                        <td class="AltMenu"><a href="index.php?SK=31">Giriş Yap</a></td>
+                    <?php
+                    }
+                    ?>
                     <td>&nbsp;</td>
                     <td class="AltMenu"><a href="index.php?SK=2">Üyelik Sözleşmesi</a></td>
                     <td>&nbsp;</td>
@@ -107,7 +130,19 @@ if(isset($_REQUEST["SK"])){
                 <tr height="30">
                     <td class="AltMenu">&nbsp;<a href="index.php?SK=8">Banka Hesaplarımız</a></td>
                     <td>&nbsp;</td>
+
+
+                    <?php
+                    if(isset($_SESSION["Kullanici"])){
+                    ?>
+                        <td class="AltMenu"><a href="index.php?SK=49">Çıkış Yap</a></td>
+                    <?php
+                    }else{
+                    ?>
                     <td class="AltMenu"><a href="index.php?SK=22">Yeni Üye Ol</a></td>
+                    <?php
+                    }
+                    ?>
                     <td>&nbsp;</td>
                     <td class="AltMenu"><a href="index.php?SK=3">Kullanım Koşulları</a></td>
                     <td>&nbsp;</td>
