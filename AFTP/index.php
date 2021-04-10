@@ -9,6 +9,12 @@ if(isset($_REQUEST["SK"])){
 }else{
     $SayfaKoduDegeri    = 0;
 }
+
+if(isset($_REQUEST["SYF"])){
+    $Sayfalama          = SayiliIcerikleriFiltrele($_REQUEST["SYF"]);
+}else{
+    $Sayfalama          = 1;
+}
 ?>
 <!doctype html>
 <html lang="tr-TR">
@@ -60,16 +66,14 @@ if(isset($_REQUEST["SK"])){
             </table>
             <table width="1065" height="80" align="center" border="0" cellpadding="0" cellspacing="0">
                 <tr>
-                    <td width="150"><a href="index.php"><img src="Resimler/<?php echo DonusumleriGeriDondur($SiteLogosu); ?>" border="0"></a></td>
+                    <td width="192"><a href="index.php"><img src="Resimler/<?php echo DonusumleriGeriDondur($SiteLogosu); ?>" border="0"></a></td>
                     <td>
-                        <table width="915" height="30" align="center" border="0" cellpadding="0" cellspacing="0">
+                        <table width="873" height="30" align="center" border="0" cellpadding="0" cellspacing="0">
                             <tr>
-                                <td width="346" class="AnaMenu">&nbsp;</td>
-                                <td width="101" class="AnaMenu"><a href="index.php">Ana Sayfa</a></td>
-                                <td width="98"  class="AnaMenu"><a href="xxxxx">Kayısı(kg)</a></td>
-                                <td width="126" class="AnaMenu"><a href="xxxxx">Kayısı Dönerleri</a></td>
-                                <td width="126" class="AnaMenu"><a href="xxxxx">Hediyelik Kayısı</a></td>
-                                <td width="118" class="AnaMenu"><a href="xxxxx">Kayısı Çikolatası</a></td>  
+                                <td width="523" class="AnaMenu">&nbsp;</td>
+                                <td width="100" class="AnaMenu"><a href="index.php">Ana Sayfa</a></td>
+                                <td width="130" class="AnaMenu"><a href="xxxxx">Kayısı Çeşitleri</a></td>
+                                <td width="120" class="AnaMenu"><a href="xxxxx">Kuruyemiş</a></td>
                             </tr>
                         </table>       
                     </td>

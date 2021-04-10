@@ -119,6 +119,12 @@ body {
     padding: 10px 10px;
 }
 
+.YorumIcinTextAreaAlanlari {
+    width: 95%;
+    height: 230px;
+    padding: 10px 10px;
+}
+
 .YesilButon {
     height: 30px;
     border: 1px solid #00FF00;
@@ -205,4 +211,76 @@ body {
     padding: 5px 30px;
     color: black;
     cursor: pointer;
+}
+
+.SayfalamaAlaniKapsayicisi {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    text-align: center;
+    text-decoration: none;
+}
+
+.SayfalamaAlaniIciMetinAlaniKapsayicisi {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    text-align: center;
+    text-decoration: none;
+}
+
+.SayfalamaAlaniIciNumaraAlaniKapsayicisi {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    text-align: center;
+    text-decoration: none;
+}
+
+.SayfalamaAktif {
+    display: inline-block;
+    width: auto;
+    height: 20px;
+    margin: 0px 0.5px;
+    padding: 5px 7.5px;
+    background: #F6F6F6;
+    border: 1px solid #DADADA;
+    outline: 0;
+    color: #FF0000;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.SayfalamaPasif {
+    display: inline-block;
+    width: auto;
+    height: 20px;
+    margin: 0px 0.5px;
+    padding: 5px 7.5px;
+    background: #F6F6F6;
+    border: 1px solid #DADADA;
+    outline: 0;
+    color: #646464;
+    font-weight: normal;
+    text-decoration: none;
+}
+
+.SayfalamaPasif a:link,
+.SayfalamaPasif a:hover,
+.SayfalamaPasif a:active,
+.SayfalamaPasif a:visited {
+    color: #646464;
+    text-decoration: none;
 }

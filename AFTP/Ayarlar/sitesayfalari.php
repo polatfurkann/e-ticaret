@@ -59,12 +59,8 @@ $Sayfa[56]  = "hesabimuyelikbilgilerimguncellesonuceksikalan.php";
 $Sayfa[57]  = "hesabimuyelikbilgilerimguncellesonucuyusmayansifre.php";
 $Sayfa[58]  = "hesabimadresler.php";
     $Sayfa[59]  = "hesabimfavoriler.php";
-    $Sayfa[60]  = "hesabimyorumlar.php";
-    $Sayfa[61]  = "hesabimsiparisler.php";
-
-
-
-
+$Sayfa[60]  = "hesabimyorumlar.php";
+$Sayfa[61]  = "hesabimsiparisler.php";
 $Sayfa[62]  = "hesabimadreslerguncelle.php";
 $Sayfa[63]  = "hesabimadreslerguncellesonuc.php";
 $Sayfa[64]  = "hesabimadreslerguncellesonuctamam.php";
@@ -78,7 +74,11 @@ $Sayfa[71]  = "hesabimadreslereklesonuc.php";
 $Sayfa[72]  = "hesabimadreslereklesonuctamam.php";
 $Sayfa[73]  = "hesabimadreslereklesonuchata.php";
 $Sayfa[74]  = "hesabimadreslereklesonuceksikalan.php";
-
-
+$Sayfa[75]  = "hesabimyorumyap.php";
+$Sayfa[76]  = "hesabimyorumyapsonuc.php";
+$Sayfa[77]  = "hesabimyorumyapsonuctamam.php";
+$Sayfa[78]  = "hesabimyorumyapsonuchata.php";
+$Sayfa[79]  = "hesabimyorumyapsonuceksikalan.php";
+$Sayfa[80]  = "hesabimyorumlar.php";
 
 ?>

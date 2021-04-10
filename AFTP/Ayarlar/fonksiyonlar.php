@@ -73,7 +73,11 @@ function AktivasyonKoduUret(){
     return $Sonuc;
 }
 
-
+function FiyatBicimlendir( $Deger ) {
+    $Bicimlendir = number_format( $Deger, "2", ",", "." );
+    $Sonuc = $Bicimlendir;
+    return $Sonuc;
+  }
 
 
 
