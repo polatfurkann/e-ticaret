@@ -95,7 +95,7 @@ $UrunSorgusuKaydi	=	$UrunSorgusu->fetch(PDO::FETCH_ASSOC);
 						<td colspan="5"><table width="705" align="center" border="0" cellpadding="0" cellspacing="0">
 							<tr height="45">
 								<td width="500" align="left"><select name="Varyant" class="SelectAlanlari">
-									<option value="">Lütfen <?php echo DonusumleriGeriDondur($UrunSorgusuKaydi["VaryantBasligi"]); ?> Seçiniz</option>
+									<option value="">Ürününüz Size Nasıl Ulaşsın?</option>
 									<?php
 									
 									$VaryantSorgusu		=	$VeritabaniBaglantisi->prepare("SELECT * FROM urunvaryantlari WHERE UrunId = ? AND StokAdedi > ? ORDER BY VaryantAdi ASC");

@@ -17,6 +17,7 @@ body {
     text-decoration: none;
 }
 
+.MaviAlanMenusu,
 .MaviAlanMenusu a:link,
 .MaviAlanMenusu a:hover,
 .MaviAlanMenusu a:active,
@@ -390,4 +391,50 @@ body {
     text-align: center;
     font-weight: bold;
     cursor: pointer;
+}
+
+.SepetIciDevamEtVeAlisverisiTamamlaButonu {
+    width: 100%;
+    height: 30px;
+    margin: 0;
+    padding: 10px 0px 5px 0px;
+    background: #FF9900;
+    color: white;
+    border: 1px solid #FF9900;
+    border-radius: 3px;
+    outline: none;
+    text-align: center;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.SepetIciDevamEtVeAlisverisiTamamlaButonu a {
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.SepetIciDevamEtVeAlisverisiTamamlaButonu a:hover {
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.SepetIciDevamEtVeAlisverisiTamamlaButonu a img {
+    display: inline-block;
+    float: left;
+    height: 20px;
+    max-height: 20px;
+    margin-top: 3px;
+    margin-left: 73px;
+}
+
+.SepetIciDevamEtVeAlisverisiTamamlaButonu a div {
+    display: inline-block;
+    float: left;
+    height: 20px;
+    max-height: 20px;
+    margin-left: 10px;
+    padding-top: 2px;
 }
