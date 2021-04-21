@@ -28,6 +28,8 @@ if($AyarSayisi>0){
     $SosyalLinkInstagram    = $Ayarlar["SosyalLinkInstagram"];
     $SosyalLinkYouTube	    = $Ayarlar["SosyalLinkYouTube"];
     $SosyalLinkPinterest    = $Ayarlar["SosyalLinkPinterest"];
+    $DolarKuru              = $Ayarlar["DolarKuru"];
+    $EuroKuru               = $Ayarlar["EuroKuru"];
 }else{
     //echo "Site Ayar Sorgusu Hatalı";
     die();
