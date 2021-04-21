@@ -61,7 +61,7 @@ if(isset($_REQUEST["SYF"])){
                     }
                     ?>
                     <td width="20"><a href="xxxxx"><img src="Resimler/SepetBeyaz16x16.png" border="0" style="margin-top: 5px;"></a></td>
-                    <td width="103" class="MaviAlanMenusu"><a href="xxxxx">Alışveriş Sepeti</a></td>
+                    <td width="103" class="MaviAlanMenusu"><a href="index.php?SK=93">Alışveriş Sepeti</a></td>
                 </tr>
             </table>
             <table width="1065" height="80" align="center" border="0" cellpadding="0" cellspacing="0">
