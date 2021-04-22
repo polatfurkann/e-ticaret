@@ -30,6 +30,7 @@ if($AyarSayisi>0){
     $SosyalLinkPinterest    = $Ayarlar["SosyalLinkPinterest"];
     $DolarKuru              = $Ayarlar["DolarKuru"];
     $EuroKuru               = $Ayarlar["EuroKuru"];
+    $UcretsizKargoBaraji    = $Ayarlar["UcretsizKargoBaraji"];
 }else{
     //echo "Site Ayar Sorgusu Hatalı";
     die();
