@@ -11,4 +11,14 @@ $(document).ready(function() {
         var ResimIcinDosyaYolu = "Resimler/UrunResimleri/" + Klasor + "/" + ResimDegeri;
         $("#BuyukResim").attr("src", ResimIcinDosyaYolu);
     }
+
+    $.KrediKartiSecildi = function() {
+        $(".BHAlanlari").css("display", "none");
+        $(".KKAlanlari").css("display", "block");
+    }
+
+    $.BankaHavalesiSecildi = function() {
+        $(".KKAlanlari").css("display", "none");
+        $(".BHAlanlari").css("display", "block");
+    }
 });
