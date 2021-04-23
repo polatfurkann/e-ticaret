@@ -26,6 +26,10 @@ if($StokIcinSepettekiUrunSayisi>0){
 		}
 	}
 }
+
+$SepetSifirlamaSorgusu		=	$VeritabaniBaglantisi->prepare("UPDATE sepet SET AdresId= ?, KargoId = ?, OdemeSecimi = ?, TaksitSecimi = ? WHERE UyeId = ?");
+$SepetSifirlamaSorgusu->execute([0, 0, "", 0, $KullaniciID]);
+
 ?>
 <table width="1065" align="center" border="0" cellpadding="0" cellspacing="0">
 	<tr>

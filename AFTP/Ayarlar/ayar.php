@@ -31,6 +31,10 @@ if($AyarSayisi>0){
     $DolarKuru              = $Ayarlar["DolarKuru"];
     $EuroKuru               = $Ayarlar["EuroKuru"];
     $UcretsizKargoBaraji    = $Ayarlar["UcretsizKargoBaraji"];
+    $ClientID               = $Ayarlar["ClientID"];
+    $StoreKey               = $Ayarlar["StoreKey"];
+    $ApiKullanicisi         = $Ayarlar["ApiKullanicisi"];
+    $ApiSifresi             = $Ayarlar["ApiSifresi"];
 }else{
     //echo "Site Ayar Sorgusu Hatalı";
     die();

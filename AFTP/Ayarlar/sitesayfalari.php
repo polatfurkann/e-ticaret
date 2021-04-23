@@ -99,8 +99,14 @@ $Sayfa[95]  = "alisverissepetiurunadetazalt.php";
 $Sayfa[96]  = "alisverissepetiurunadetarttir.php";
 $Sayfa[97]  = "alisverissepetiadresvekargosecimi.php";
 $Sayfa[98]  = "alisverissepetiodemesecimi.php";
-    $Sayfa[99]  = "alisverissepetiodemesecimisonuc.php";
+$Sayfa[99]  = "alisverissepetiodemesecimisonuc.php";
+$Sayfa[100] = "alisverissepetibankahavalesiileodemetamam.php";
+$Sayfa[101] = "alisverissepetibankahavalesiileodemehata.php";
+$Sayfa[102] = "alisverissepetikredikartiodeme.php";
+$Sayfa[103] = "alisverissepetikredikartiodemesonuc.php";
+$Sayfa[104] = "alisverissepetikredikartiodemesonuctamam.php";
+$Sayfa[105] = "alisverissepetikredikartiodemesonuchata.php";
     
-
+    
 
 ?>
