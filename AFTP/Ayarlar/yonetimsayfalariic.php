@@ -1,5 +1,6 @@
 <?php
-$SayfaIc[0]   = "pano.php";
+    $SayfaIc[0]   = "pano.php";
+    
 $SayfaIc[1]   = ".php";
 $SayfaIc[2]   = ".php";
 $SayfaIc[3]   = ".php";

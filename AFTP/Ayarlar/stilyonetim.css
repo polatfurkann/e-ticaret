@@ -50,6 +50,20 @@ body {
     line-height: 1.5;
     font-style: normal;
     font-variant: normal;
-    font-weight: bold;
+    font-weight: normal;
+    text-decoration: none;
+}
+
+.AnaMenuler a:link,
+.AnaMenuler a:hover,
+.AnaMenuler a:active,
+.AnaMenuler a:visited {
+    font-family: "Open Sans", Arial, "Helvetica Neue", Helvetica, "sans-serif";
+    font-size: 14px;
+    color: #FFFFFF;
+    line-height: 1.5;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
     text-decoration: none;
 }
