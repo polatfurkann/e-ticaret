@@ -85,7 +85,6 @@ $Sayfa[82]  = "hesabimfavorilersilhata.php";
 $Sayfa[83]  = "urundetay.php";
 $Sayfa[84]  = "kayisicesitleri.php";
 $Sayfa[85]  = "kuruyemis.php";
-
 $Sayfa[86]  = "favorilereekle.php";
 $Sayfa[87]  = "favorilereekletamam.php";
 $Sayfa[88]  = "favorilereeklehata.php";
@@ -106,7 +105,4 @@ $Sayfa[102] = "alisverissepetikredikartiodeme.php";
 $Sayfa[103] = "alisverissepetikredikartiodemesonuc.php";
 $Sayfa[104] = "alisverissepetikredikartiodemesonuctamam.php";
 $Sayfa[105] = "alisverissepetikredikartiodemesonuchata.php";
-    
-    
-
 ?>

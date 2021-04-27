@@ -3,10 +3,6 @@ $IPAdresi           = $_SERVER["REMOTE_ADDR"];
 $ZamanDamgasi       = time();
 $TarihSaat          = date("d.m.Y H:i:s", $ZamanDamgasi);
 
-
-
-
-
 function TarihBul($Deger){
     $Cevir    		= date("d.m.Y H:i:s", $Deger);
     $Sonuc			= $Cevir;
@@ -87,9 +83,4 @@ function FiyatBicimlendir( $Deger ) {
     $Sonuc = $Bicimlendir;
     return $Sonuc;
   }
-
-
-
-
-
 ?>

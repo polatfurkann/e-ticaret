@@ -80,8 +80,4 @@ if(isset($_SESSION["Kullanici"])){
         die();
     }
 }
-
-
-
-
 ?>
