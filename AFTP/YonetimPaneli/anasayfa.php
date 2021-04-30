@@ -23,7 +23,7 @@ if(isset($_SESSION["Yonetici"])){
 					<td align="left" style="border-bottom: 1px dashed #00c8ff;" class="AnaMenuler"><a href="index.php?SKD=0&SKI=xxxxx">&nbsp;YORUMLAR</a></td>
 				</tr>
 				<tr height="50">
-					<td align="left" style="border-bottom: 1px dashed #00c8ff;" class="AnaMenuler"><a href="index.php?SKD=0&SKI=xxxxx">&nbsp;SİTE AYARLARI</a></td>
+					<td align="left" style="border-bottom: 1px dashed #00c8ff;" class="AnaMenuler"><a href="index.php?SKD=0&SKI=1">&nbsp;SİTE AYARLARI</a></td>
 				</tr>
 				<tr height="50">
 					<td align="left" style="border-bottom: 1px dashed #00c8ff;" class="AnaMenuler"><a href="index.php?SKD=0&SKI=xxxxx">&nbsp;MENÜLER</a></td>
@@ -47,7 +47,7 @@ if(isset($_SESSION["Yonetici"])){
 					<td align="left" style="border-bottom: 1px dashed #00c8ff;" class="AnaMenuler"><a href="index.php?SKD=0&SKI=xxxxx">&nbsp;YÖNETİCİLER</a></td>
 				</tr>
 				<tr height="50">
-					<td align="left" style="border-bottom: 1px dashed #00c8ff;" class="AnaMenuler"><a href="index.php?SKD=xxxxx">&nbsp;ÇIKIŞ</a></td>
+					<td align="left" style="border-bottom: 1px dashed #00c8ff;" class="AnaMenuler"><a href="index.php?SKD=4">&nbsp;ÇIKIŞ</a></td>
 				</tr>
 			</table></td>
 			<td width="5" align="center" bgcolor="#FF0000" valign="top">&nbsp;</td>
