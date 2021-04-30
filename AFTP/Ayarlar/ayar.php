@@ -50,7 +50,7 @@ if($MetinlerSayisi>0){
     $UyelikSozlesmesiMetni         = $Metinler["UyelikSozlesmesiMetni"];
     $KullanimKosullariMetni        = $Metinler["KullanimKosullariMetni"];
     $GizlilikSozlesmesiMetni       = $Metinler["GizlilikSozlesmesiMetni"];
-    $MesafaliSatisSozlesmesiMetni  = $Metinler["MesafaliSatisSozlesmesiMetni"];
+    $MesafeliSatisSozlesmesiMetni  = $Metinler["MesafeliSatisSozlesmesiMetni"];
     $TeslimatMetni                 = $Metinler["TeslimatMetni"];
     $IptalIadeDegisimMetni         = $Metinler["IptalIadeDegisimMetni"];
 }else{

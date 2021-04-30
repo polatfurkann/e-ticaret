@@ -5,10 +5,11 @@ $SayfaIc[2]   = "siteayarlarisonuc.php";
 $SayfaIc[3]   = "siteayarlarisonuctamam.php";
 $SayfaIc[4]   = "siteayarlarisonuchata.php";
 
-$SayfaIc[5]   = ".php";
-$SayfaIc[6]   = ".php";
-$SayfaIc[7]   = ".php";
-$SayfaIc[8]   = ".php";
+$SayfaIc[5]   = "sozlesmelervemetinler.php";
+$SayfaIc[6]   = "sozlesmelervemetinlersonuc.php";
+$SayfaIc[7]   = "sozlesmelervemetinlersonuctamam.php";
+$SayfaIc[8]   = "sozlesmelervemetinlersonuchata.php";
+
 $SayfaIc[9]   = ".php";
 $SayfaIc[10]  = ".php";
 $SayfaIc[11]  = ".php";
