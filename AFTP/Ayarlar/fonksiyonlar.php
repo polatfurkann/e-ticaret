@@ -86,4 +86,9 @@ function FiyatBicimlendir( $Deger ) {
     $Sonuc = $Bicimlendir;
     return $Sonuc;
   }
+
+function ResimAdiOlustur(){
+    $Sonuc			=	substr(md5(uniqid(time())), 0, 25);
+    return $Sonuc;
+}  
 ?>

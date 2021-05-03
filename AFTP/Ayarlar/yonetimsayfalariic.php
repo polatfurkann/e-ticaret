@@ -4,24 +4,26 @@ $SayfaIc[1]   = "siteayarlari.php";
 $SayfaIc[2]   = "siteayarlarisonuc.php";
 $SayfaIc[3]   = "siteayarlarisonuctamam.php";
 $SayfaIc[4]   = "siteayarlarisonuchata.php";
-
 $SayfaIc[5]   = "sozlesmelervemetinler.php";
 $SayfaIc[6]   = "sozlesmelervemetinlersonuc.php";
 $SayfaIc[7]   = "sozlesmelervemetinlersonuctamam.php";
 $SayfaIc[8]   = "sozlesmelervemetinlersonuchata.php";
 
-$SayfaIc[9]   = ".php";
-$SayfaIc[10]  = ".php";
-$SayfaIc[11]  = ".php";
-$SayfaIc[12]  = ".php";
-$SayfaIc[13]  = ".php";
-$SayfaIc[14]  = ".php";
-$SayfaIc[15]  = ".php";
-$SayfaIc[16]  = ".php";
-$SayfaIc[17]  = ".php";
-$SayfaIc[18]  = ".php";
-$SayfaIc[19]  = ".php";
-$SayfaIc[20]  = ".php";
+$SayfaIc[9]   = "bankahesaplari.php";
+
+$SayfaIc[10]  = "bankahesaplariekle.php";
+$SayfaIc[11]  = "bankahesaplarieklesonuc.php";
+$SayfaIc[12]  = "bankahesaplarieklesonuctamam.php";
+$SayfaIc[13]  = "bankahesaplarieklesonuchata.php";
+
+$SayfaIc[14]  = "bankahesaplariguncelle.php";
+$SayfaIc[15]  = "bankahesaplariguncellesonuc.php";
+$SayfaIc[16]  = "bankahesaplariguncellesonuctamam.php";
+$SayfaIc[17]  = "bankahesaplariguncellesonuchata.php";
+
+$SayfaIc[18]  = "bankahesaplarisilsonuc.php";
+$SayfaIc[19]  = "bankahesaplarisilsonuctamam.php";
+$SayfaIc[20]  = "bankahesaplarisilsonuchata.php";
 $SayfaIc[21]  = ".php";
 $SayfaIc[22]  = ".php";
 $SayfaIc[23]  = ".php";
