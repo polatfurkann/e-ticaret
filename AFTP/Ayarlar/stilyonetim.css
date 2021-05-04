@@ -29,6 +29,12 @@ body {
     padding: 0px 10px;
 }
 
+.TextAreaAlanlari {
+    width: 95%;
+    height: 150px;
+    padding: 10px 10px;
+}
+
 .YesilButon {
     height: 30px;
     border: 1px solid #00FF00;
@@ -72,10 +78,4 @@ body {
     font-variant: normal;
     font-weight: normal;
     text-decoration: none;
-}
-
-.TextAreaAlanlari {
-    width: 95%;
-    height: 150px;
-    padding: 10px 10px;
 }
