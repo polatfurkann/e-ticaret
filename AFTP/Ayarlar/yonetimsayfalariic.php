@@ -8,34 +8,31 @@ $SayfaIc[5]   = "sozlesmelervemetinler.php";
 $SayfaIc[6]   = "sozlesmelervemetinlersonuc.php";
 $SayfaIc[7]   = "sozlesmelervemetinlersonuctamam.php";
 $SayfaIc[8]   = "sozlesmelervemetinlersonuchata.php";
-
 $SayfaIc[9]   = "bankahesaplari.php";
-
 $SayfaIc[10]  = "bankahesaplariekle.php";
 $SayfaIc[11]  = "bankahesaplarieklesonuc.php";
 $SayfaIc[12]  = "bankahesaplarieklesonuctamam.php";
 $SayfaIc[13]  = "bankahesaplarieklesonuchata.php";
-
 $SayfaIc[14]  = "bankahesaplariguncelle.php";
 $SayfaIc[15]  = "bankahesaplariguncellesonuc.php";
 $SayfaIc[16]  = "bankahesaplariguncellesonuctamam.php";
 $SayfaIc[17]  = "bankahesaplariguncellesonuchata.php";
-
 $SayfaIc[18]  = "bankahesaplarisilsonuc.php";
 $SayfaIc[19]  = "bankahesaplarisilsonuctamam.php";
 $SayfaIc[20]  = "bankahesaplarisilsonuchata.php";
-$SayfaIc[21]  = ".php";
-$SayfaIc[22]  = ".php";
-$SayfaIc[23]  = ".php";
-$SayfaIc[24]  = ".php";
-$SayfaIc[25]  = ".php";
-$SayfaIc[26]  = ".php";
-$SayfaIc[27]  = ".php";
-$SayfaIc[28]  = ".php";
-$SayfaIc[29]  = ".php";
-$SayfaIc[30]  = ".php";
-$SayfaIc[31]  = ".php";
-$SayfaIc[32]  = ".php";
+$SayfaIc[21]  = "kargolar.php";
+$SayfaIc[22]  = "kargolarekle.php";
+$SayfaIc[23]  = "kargolareklesonuc.php";
+$SayfaIc[24]  = "kargolareklesonuctamam.php";
+$SayfaIc[25]  = "kargolareklesonuchata.php";
+$SayfaIc[26]  = "kargolarguncelle.php";
+$SayfaIc[27]  = "kargolarguncellesonuc.php";
+$SayfaIc[28]  = "kargolarguncellesonuctamam.php";
+$SayfaIc[29]  = "kargolarguncellesonuchata.php";
+$SayfaIc[30]  = "kargolarsilsonuc.php";
+$SayfaIc[31]  = "kargolarsilsonuctamam.php";
+$SayfaIc[32]  = "kargolarsilsonuchata.php";
+
 $SayfaIc[33]  = ".php";
 $SayfaIc[34]  = ".php";
 $SayfaIc[35]  = ".php";
