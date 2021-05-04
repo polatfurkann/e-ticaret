@@ -38,7 +38,7 @@ if(isset($_SESSION["Yonetici"])){
 					<td align="left" style="border-bottom: 1px dashed #00c8ff;" class="AnaMenuler"><a href="index.php?SKD=0&SKI=21">&nbsp;KARGO AYARLARI</a></td>
 				</tr>
 				<tr height="50">
-					<td align="left" style="border-bottom: 1px dashed #00c8ff;" class="AnaMenuler"><a href="index.php?SKD=0&SKI=xxxxx">&nbsp;BANNER AYARLARI</a></td>
+					<td align="left" style="border-bottom: 1px dashed #00c8ff;" class="AnaMenuler"><a href="index.php?SKD=0&SKI=33">&nbsp;BANNER AYARLARI</a></td>
 				</tr>
 				<tr height="50">
 					<td align="left" style="border-bottom: 1px dashed #00c8ff;" class="AnaMenuler"><a href="index.php?SKD=0&SKI=xxxxx">&nbsp;DESTEK İÇERİKLERİ</a></td>
