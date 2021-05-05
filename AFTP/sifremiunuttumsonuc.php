@@ -18,8 +18,8 @@ if(isset($_POST["TelefonNumarasi"])){
 }
 
 if(($GelenEmailAdresi!="") or ($GelenTelefonNumarasi!="")){
-    $KontrolSorgusu     = $VeritabaniBaglantisi->prepare("SELECT * FROM uyeler WHERE EmailAdresi = ? OR TelefonNumarasi=?");
-    $KontrolSorgusu->execute([$GelenEmailAdresi, $GelenTelefonNumarasi]); 
+    $KontrolSorgusu     = $VeritabaniBaglantisi->prepare("SELECT * FROM uyeler WHERE EmailAdresi = ? OR TelefonNumarasi=? AND SilinmeDurumu = ?");
+    $KontrolSorgusu->execute([$GelenEmailAdresi, $GelenTelefonNumarasi, 0]); 
     $KullaniciSayisi    = $KontrolSorgusu->rowCount(); 
     $KullaniciKaydi     = $KontrolSorgusu->fetch(PDO::FETCH_ASSOC); 
 

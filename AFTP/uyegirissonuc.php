@@ -20,8 +20,8 @@ if(isset($_POST["Sifre"])){
 $MDB5liSifre          = md5($GelenSifre);
 
 if(($GelenEmailAdresi!="") and ($GelenSifre!="")){
-    $KontrolSorgusu     = $VeritabaniBaglantisi->prepare("SELECT * FROM uyeler WHERE EmailAdresi = ? AND Sifre=?");
-    $KontrolSorgusu->execute([$GelenEmailAdresi, $MDB5liSifre]); 
+    $KontrolSorgusu     = $VeritabaniBaglantisi->prepare("SELECT * FROM uyeler WHERE EmailAdresi = ? AND Sifre=? AND SilinmeDurumu = ?");
+    $KontrolSorgusu->execute([$GelenEmailAdresi, $MDB5liSifre, 0]); 
     $KullaniciSayisi    = $KontrolSorgusu->rowCount(); 
     $KullaniciKaydi     = $KontrolSorgusu->fetch(PDO::FETCH_ASSOC); 
 
