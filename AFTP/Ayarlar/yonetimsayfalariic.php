@@ -90,10 +90,10 @@ $SayfaIc[87]  = "uyelergeriacsonuc.php";
 $SayfaIc[88]  = "uyelergeriacsonuctamam.php";
 $SayfaIc[89]  = "uyelergeriacsonuchata.php";
 
-$SayfaIc[90]  = ".php";
-$SayfaIc[91]  = ".php";
-$SayfaIc[92]  = ".php";
-$SayfaIc[93]  = ".php";
+$SayfaIc[90]  = "yorumlar.php";
+$SayfaIc[91]  = "yorumlarsilsonuc.php";
+$SayfaIc[92]  = "yorumlarsilsonuctamam.php";
+$SayfaIc[93]  = "yorumlarsilsonuchata.php";
 $SayfaIc[94]  = ".php";
 $SayfaIc[95]  = ".php";
 $SayfaIc[96]  = ".php";
