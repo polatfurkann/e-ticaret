@@ -1,5 +1,4 @@
 <?php
-namespace Verot\Upload;
 if(isset($_SESSION["Yonetici"])){
 	if(isset($_POST["BannerAlani"])){
 		$GelenBannerAlani		=	Guvenlik($_POST["BannerAlani"]);

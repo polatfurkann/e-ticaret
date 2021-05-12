@@ -1,5 +1,4 @@
 <?php
-namespace Verot\Upload;
 if(isset($_SESSION["Yonetici"])){
 	if(isset($_POST["SiteAdi"])){
 		$GelenSiteAdi				=	Guvenlik($_POST["SiteAdi"]);

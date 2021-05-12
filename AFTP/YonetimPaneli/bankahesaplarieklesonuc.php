@@ -1,5 +1,4 @@
 <?php
-namespace Verot\Upload;
 if(isset($_SESSION["Yonetici"])){
 	$GelenBankaLogosu			=	$_FILES["BankaLogosu"];
 	if(isset($_POST["BankaAdi"])){
