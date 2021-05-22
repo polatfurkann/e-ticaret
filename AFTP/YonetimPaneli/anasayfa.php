@@ -8,7 +8,7 @@ if(isset($_SESSION["Yonetici"])){
 					<td align="center"><a href="index.php?SKD=0&SKI=0"><img src="../Resimler/Logo.png" border="0"></a></td>
 				</tr>
 				<tr height="50">
-					<td align="left" style="border-bottom: 1px dashed #00c8ff;" class="AnaMenuler"><a href="index.php?SKD=0&SKI=xxxxx">&nbsp;SİPARİŞLER</a></td>
+					<td align="left" style="border-bottom: 1px dashed #00c8ff;" class="AnaMenuler"><a href="index.php?SKD=0&SKI=106">&nbsp;SİPARİŞLER</a></td>
 				</tr>
 				<tr height="50">
 					<td align="left" style="border-bottom: 1px dashed #00c8ff;" class="AnaMenuler"><a href="index.php?SKD=0&SKI=xxxxx">&nbsp;HAVALE BİLDİRİMLERİ</a></td>
