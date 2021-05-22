@@ -1,5 +1,5 @@
 <?php
-    $SayfaIc[0]   = "pano.php";
+$SayfaIc[0]   = "pano.php";
 $SayfaIc[1]   = "siteayarlari.php";
 $SayfaIc[2]   = "siteayarlarisonuc.php";
 $SayfaIc[3]   = "siteayarlarisonuctamam.php";
@@ -115,7 +115,6 @@ $SayfaIc[112] = "sipariskargokodugirissonuchata.php";
 $SayfaIc[113] = "siparissilsonuc.php";
 $SayfaIc[114] = "siparissilsonuctamam.php";
 $SayfaIc[115] = "siparissilsonuchata.php";
-
 $SayfaIc[116] = "havalebildirimleri.php";
 $SayfaIc[117] = "havalebildirimlerisilsonuc.php";
 $SayfaIc[118] = "havalebildirimlerisilsonuctamam.php";
